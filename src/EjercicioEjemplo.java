@@ -6,7 +6,7 @@ public class EjercicioEjemplo {
             int i, nota;
             boolean suspenso = false;
             // Iniciamos un bucle for que se repetirá 5 veces a menos que haya un suspenso
-            for (i = 1; i <= 5; i++) {
+            for (i = 1; i <= 6; i++) {
                 System.out.print ("Introduce un número del 1 al 10: ");
                 nota = sc.nextInt();
                 // Si la nota es menor que 1 o mayor que 10 indicamos que la nota es incorrecta
@@ -22,7 +22,8 @@ public class EjercicioEjemplo {
             }
             // Indicamos si hay suspenso o no
             if (suspenso == true) {
-                System.out.print ("Hay alumnos suspensos.");
+                System.out.println ("Hay alumnos suspensos.");
+                System.out.print("Deben acudir a la recueración de Junio");
             } else {
                 System.out.print ("No hay alumnos suspensos.");
             }
